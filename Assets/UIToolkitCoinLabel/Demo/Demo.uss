@@ -1,0 +1,42 @@
+#CoinArea{
+    background-color: #420763;
+    border-width: 3px;
+    border-radius: 8px;
+    padding: 8px;
+    min-width: 80px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    position: relative;
+}
+
+#CoinArea > #icon{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url('project://database/Assets/UIToolkitCoinLabel/coin.png');
+}
+
+#CoinArea > #text{
+    -unity-text-align: middle-center;
+    color: #fff;
+    marign: 0px;
+    padding: 0px;
+}
+
+#CoinArea > .coin-sprite{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    transition-property: top, left;
+    transition-duration: 0.35s;
+    transition-timing-function: ease;
+    background-image: url('project://database/Assets/UIToolkitCoinLabel/coin.png');
+}
+
+#CoinArea > .coin-sprite.animate{
+    top: 10px;
+    left: 10px;
+}

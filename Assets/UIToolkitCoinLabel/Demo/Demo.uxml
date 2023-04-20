@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkitCoinLabel/Demo/Demo.uss?fileID=7433441132597879392&amp;guid=dbde6ceb8a1c94879b239f2dc4c66ab9&amp;type=3#Demo" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="Topbar" style="justify-content: center; align-items: flex-end;">
+            <ui:VisualElement name="CoinArea">
+                <ui:VisualElement name="icon" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="margin-top: auto; margin-bottom: auto;">
+            <ui:Button text="Add +3" display-tooltip-when-elided="true" name="ButtonAdd3" />
+            <ui:Button text="Add +15" display-tooltip-when-elided="true" name="ButtonAdd15" />
+            <ui:Button text="Add +200" display-tooltip-when-elided="true" name="ButtonAdd200" />
+            <ui:Button text="Subtract -50" display-tooltip-when-elided="true" name="ButtonSub50" />
+            <ui:Button text="Consecutive (hard test)&#10;&#10;Add +5&#10;Subtract -10&#10;Add +50&#10;Subtract -30&#10;&#10;+15 as result!" display-tooltip-when-elided="true" name="ButtonHard" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
