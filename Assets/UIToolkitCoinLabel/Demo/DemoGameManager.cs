@@ -13,12 +13,6 @@ public class DemoGameManager : MonoBehaviour
 
     #endregion GLOBAL VARIABLES
 
-
-    public static int GetCoin()
-    {
-        return coin;
-    }
-
     public static void AddCoin(int amount)
     {
         int oldCoin = coin;
