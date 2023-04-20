@@ -1,5 +1,5 @@
 # unity-ui-toolkit-coin-label
-A coin label component completely uı toolkit based, it has animaiton when add and subtract coins 🤑
+A coin label component completely uı toolkit based, it has animation when add and subtract coins 🤑
 
 <img src="https://raw.githubusercontent.com/enessayaci/unity-ui-toolkit-coin-label/main/Assets/UIToolkitCoinLabel/Readme/presentation.gif" width="300">
 
